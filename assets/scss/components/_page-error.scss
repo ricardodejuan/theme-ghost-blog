@@ -38,3 +38,40 @@ body[data-page='error'] {
   transform: translate(0, 50px);
   animation: move 10s infinite;
 }
+
+.btn-error {
+  padding: 10px 20px;
+  font-size: .9em;
+  font-weight: bold;
+  color: $white-lightest;
+  text-shadow: none;
+  letter-spacing: 1px;
+  border: 1px solid $white-lightest;
+  border-radius: 20px;
+  -webkit-font-smoothing: antialiased;
+
+  &.square {
+    border-radius: 0;
+  }
+  &:hover {
+    color: darken($white-lightest, 15%);
+    border-color: darken($white-lightest, 15%);
+  }
+  &.small {
+    padding: 8px 12px;
+    font-size: .7em;
+  }
+  &.large {
+    padding: 10px 24px;
+    font-size: 1.1em;
+  }
+  &.secondary {
+    color: $white-lightest;
+    border-color: $white-lightest;
+
+    &:hover {
+      color: darken($white-lightest, 15%);
+      border-color: darken($white-lightest, 15%);
+    }
+  }
+}
