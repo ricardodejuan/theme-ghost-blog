@@ -1,0 +1,24 @@
+{
+  "name": "uno-zen",
+  "description": "Minimalist and Elegant theme for Ghost",
+  "version": "2.0.2",
+  "authors": [
+  ],
+  "dependencies": {
+    "animate.css": "*",
+    "fastclick": "*",
+    "ghostHunter": "git://github.com/i11ume/ghostHunter.git",
+    "pace": "*",
+    "reading-time": "*"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor ",
+    "test",
+    "tests"
+  ],
+  "license": "MIT",
+  "private": true
+}
