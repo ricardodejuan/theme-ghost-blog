@@ -6,7 +6,7 @@ This customized theme is a **fork** of [Uno Zen](https://github.com/Kikobeats/un
 
 ## Demo
 
-[Demo] (http://www.ricardodejuan.com/)
+[http://www.ricardodejuan.com/] (http://www.ricardodejuan.com/)
 
 ## License
 
