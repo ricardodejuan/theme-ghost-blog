@@ -2,11 +2,11 @@
 
 [Ghost CMS] (https://ghost.org/)
 
-**This customized theme** is a fork of [Uno Zen](https://github.com/Kikobeats/uno-zen).
+This customized theme is a **fork** of [Uno Zen](https://github.com/Kikobeats/uno-zen).
 
 ## Demo
 
-[Demo] (.)
+[Demo] (http://www.ricardodejuan.com/)
 
 ## License
 
