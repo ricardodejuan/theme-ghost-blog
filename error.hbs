@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html style="background: url({{@blog.cover}}) center/cover no-repeat fixed">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>404 - Not Found - @{{@blog.title}}</title>
+  {{> meta}}
+    <link rel="stylesheet" type="text/css" href="{{asset "css/uno-zen.css"}}" />
+  {{ghost_head}}
+</head>
+<body>
+<article>
+    <section>
+        <div class="mayday">
+            <h2>
+                404 - Not Found<br>
+            </h2>
+            <hr class="divider short">
+        </div>
+        <div class="astro-options">
+            <a id="safe-button" class="btn hover" href="/">Home</a>
+        </div>
+    </section>
+</article>
+{{ghost_foot}}
+<script type="text/javascript" src="{{asset "js/uno-zen.js"}}"></script>
+{{> google-analytics}}
+</body>
+</html>
